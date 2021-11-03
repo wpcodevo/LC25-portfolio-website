@@ -6,6 +6,12 @@ hamburger.addEventListener("click", () => {
   navbar.classList.toggle("show");
 });
 
+window.addEventListener("scroll", () => {
+  navbar.classList.remove("show");
+});
+
+/* =========== User Data =========== */
+
 const counters = [...document.querySelectorAll(".user-data .number")];
 const speed = 5000; // change animation speed here
 
@@ -57,4 +63,46 @@ const swiper = new Swiper(".mySwiper", {
       slidesPerView: 3,
     },
   },
+});
+
+/* ========== Scroll Reveal ============ */
+const scroll = ScrollReveal({
+  distance: "60px",
+  duration: 2500,
+  delay: 400,
+  reset: true,
+});
+
+scroll.reveal(`.hero .col:last-child`, { delay: 600 });
+
+scroll.reveal(
+  `.about-1 .col:last-child h3,.about-1 .col:last-child p,
+  .about-1 .col:last-child li`,
+  {
+    origin: "bottom",
+    interval: 100,
+  }
+);
+
+scroll.reveal(
+  `.about-2 .col:last-child h3,.about-2 .col:last-child p,
+  .about-2 .col:last-child li, .hero .col h1, .hero .col p,.hero .col .btn`,
+  {
+    origin: "top",
+    interval: 100,
+  }
+);
+
+scroll.reveal(
+  `.about-1 .col:first-child img, .languages img, .testimonials .row`,
+  {
+    origin: "top",
+  }
+);
+
+scroll.reveal(`.about-2 .col:first-child img`, { origin: "right" });
+
+scroll.reveal(`.footer .col div,.footer .col p`, {
+  origin: "top",
+  interval: 100,
 });

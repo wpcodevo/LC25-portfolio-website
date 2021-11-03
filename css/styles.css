@@ -57,7 +57,7 @@ li {
 
 section {
   padding: 5rem 0 5rem;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 p {
@@ -168,6 +168,7 @@ p {
     display: flex;
     flex-direction: column;
     transition: 0.4s;
+    z-index: 1000;
     top: -100%;
   }
 

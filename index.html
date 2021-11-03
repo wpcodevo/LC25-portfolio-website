@@ -5,26 +5,456 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Codevo Portfolio website</title>
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
     <!-- Swiper CSS -->
     <link
       rel="stylesheet"
       href="https://unpkg.com/swiper/swiper-bundle.min.css"
     />
+
+    <!-- Boxicons -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
+    <!-- Header -->
+    <header class="header">
+      <nav class="nav d-flex container">
+        <div class="logo d-flex">
+          <img src="./images/logo.svg" alt="" />
+          <span>Codevo</span>
+        </div>
+
+        <div class="nav-list d-flex">
+          <a href="">Home</a>
+          <a href="">Projects</a>
+          <a href="">Services</a>
+          <a href="">About Us</a>
+          <a href="">Help</a>
+        </div>
+
+        <a href="#" class="btn">Contact Us</a>
+
+        <!-- Hamburger -->
+        <div class="hamburger d-flex">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+
+      <!-- Hero -->
+      <div class="hero d-flex">
+        <div class="row container">
+          <div class="col">
+            <h1>
+              Hye! I’m <span>Edem.</span> <br />
+              Youtuber, Web Developer.
+            </h1>
+
+            <p>
+              <span>wpcodevo</span> provides free HTML, CSS and Javascript
+              tutorials along with practical examples. Improve your skills with
+              our coding-based challenges including quizzes, multiple-choice
+              questions. Stay Updated with web development tricks, tips,
+              resources and much more.
+            </p>
+            <a href="#" class="btn">Hire Me</a>
+          </div>
+          <div class="col">
+            <img src="./images/Programmer-1.svg" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <!-- Social Icons -->
+      <div class="icons">
+        <div class="icon">
+          <i class="bx bxl-facebook"></i>
+        </div>
+        <div class="icon"><i class="bx bxl-twitter"></i></div>
+        <div class="icon"><i class="bx bxl-instagram"></i></div>
+        <div class="icon"><i class="bx bxl-youtube"></i></div>
+      </div>
+    </header>
+
+    <!-- User Data -->
+    <section class="section user-data">
+      <div class="row container">
+        <div class="col d-flex">
+          <div class="icon d-flex"><i class="bx bxs-user"></i></div>
+          <div>
+            <span class="number" data-target="998">0</span>
+            <span>Users</span>
+          </div>
+        </div>
+
+        <div class="col d-flex">
+          <div class="icon d-flex"><i class="bx bxs-map"></i></div>
+          <div>
+            <span class="number" data-target="356">0</span>
+            <span>Locations</span>
+          </div>
+        </div>
+
+        <div class="col d-flex">
+          <div class="icon d-flex"><i class="bx bxs-server"></i></div>
+          <div>
+            <span class="number" data-target="569">0</span>
+            <span>Servers</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About #1 -->
+    <section class="section about about-1">
+      <h2 class="title">Our Top Priorities</h2>
+      <div class="row container">
+        <div class="col">
+          <img class="image" src="./images/Programmer-2.svg" alt="" />
+        </div>
+        <div class="col">
+          <h3>We Provide Many Features You Can Use</h3>
+          <p>
+            You can explore the features that we provide with fun and have their
+            own functions each feature.
+          </p>
+          <ul>
+            <li>
+              <img src="./images/checked.svg" alt="" />
+              <span>Powerfull online protection.</span>
+            </li>
+            <li>
+              <img src="./images/checked.svg" alt="" />
+              <span>Internet without borders.</span>
+            </li>
+            <li>
+              <img src="./images/checked.svg" alt="" />
+              <span>Supercharged VPN</span>
+            </li>
+            <li>
+              <img src="./images/checked.svg" alt="" />
+              <span>No specific time limits.</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- About #2 -->
+    <section class="section about about-2">
+      <div class="row container">
+        <div class="col">
+          <img class="image" src="./images/Programmer-3.svg" alt="" />
+        </div>
+        <div class="col">
+          <h3>We Provide Many Features You Can Use</h3>
+          <p>
+            You can explore the features that we provide with fun and have their
+            own functions each feature.
+          </p>
+          <ul>
+            <li>
+              <img src="./images/checked.svg" alt="" />
+              <span>Powerfull online protection.</span>
+            </li>
+            <li>
+              <img src="./images/checked.svg" alt="" />
+              <span>Internet without borders.</span>
+            </li>
+            <li>
+              <img src="./images/checked.svg" alt="" />
+              <span>Supercharged VPN</span>
+            </li>
+            <li>
+              <img src="./images/checked.svg" alt="" />
+              <span>No specific time limits.</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Languages -->
+    <section class="section languages">
+      <h2 class="title">Programming Just Got Fun</h2>
+      <div class="row container">
+        <div class="image">
+          <div class="circle circle-1"></div>
+          <img src="./images/iPhone X.png" alt="" />
+          <div class="circle circle-2">
+            <div class="language language-1">
+              <div>
+                <h4>Heading</h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Condimentum diam
+                </p>
+              </div>
+              <div class="icon">{ }</div>
+            </div>
+            <div class="language language-2">
+              <div class="icon">C++</div>
+              <div>
+                <h4>Heading</h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Condimentum diam
+                </p>
+              </div>
+            </div>
+            <div class="language language-3">
+              <div class="icon">C#</div>
+              <div>
+                <h4>Heading</h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Condimentum diam
+                </p>
+              </div>
+            </div>
+            <div class="language language-4">
+              <div>
+                <h4>Heading</h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Condimentum diam
+                </p>
+              </div>
+              <div class="icon">CSS</div>
+            </div>
+            <div class="language language-5">
+              <div class="icon">PHP</div>
+              <div>
+                <h4>Heading</h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Condimentum diam
+                </p>
+              </div>
+            </div>
+            <div class="language language-6">
+              <div>
+                <h4>Heading</h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Condimentum diam
+                </p>
+              </div>
+              <div class="icon">JAVA</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section testimonials">
+      <div class="top">
+        <h2>Some Reviews of Happy Customer</h2>
+        <p>
+          These are the stories of our customers who have joined us with great
+          pleasure when using this crazy feature.
+        </p>
+      </div>
+
+      <div class="row container">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="col d-flex">
+                  <div class="info d-flex">
+                    <div class="image">
+                      <img src="./images/profile-1.jpg" alt="" />
+                    </div>
+                    <div>
+                      <h4>Viezh Robert</h4>
+                      <span>Warsaw, Poland</span>
+                    </div>
+                  </div>
+
+                  <!-- Rating -->
+                  <div class="rating d-flex">
+                    <span>4.5</span>
+                    <span><i class="bx bxs-star"></i></span>
+                  </div>
+                </div>
+
+                <p class="col">
+                  “Wow... I am very happy to use this VPN, it turned out to be
+                  more than my expectations and so far there have been no
+                  problems. LaslesVPN always the best”.
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="col d-flex">
+                  <div class="info d-flex">
+                    <div class="image">
+                      <img src="./images/profile-2.jpg" alt="" />
+                    </div>
+                    <div>
+                      <h4>Yessica Christy</h4>
+                      <span>Shanxi, China</span>
+                    </div>
+                  </div>
+
+                  <!-- Rating -->
+                  <div class="rating d-flex">
+                    <span>4.5</span>
+                    <span><i class="bx bxs-star"></i></span>
+                  </div>
+                </div>
+
+                <p class="col">
+                  “I like it because I like to travel far and still can connect
+                  with high speed.”.
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="col d-flex">
+                  <div class="info d-flex">
+                    <div class="image">
+                      <img src="./images/profile-3.jpg" alt="" />
+                    </div>
+                    <div>
+                      <h4>Kim Young Jou</h4>
+                      <span>Seoul, South Korea</span>
+                    </div>
+                  </div>
+
+                  <!-- Rating -->
+                  <div class="rating d-flex">
+                    <span>4.5</span>
+                    <span><i class="bx bxs-star"></i></span>
+                  </div>
+                </div>
+
+                <p class="col">
+                  “This is very unusual for my business that currently requires
+                  a virtual private network that has high security.”.
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="col d-flex">
+                  <div class="info d-flex">
+                    <div class="image">
+                      <img src="./images/profile-4.jpg" alt="" />
+                    </div>
+                    <div>
+                      <h4>Kim Young Jou</h4>
+                      <span>Seoul, South Korea</span>
+                    </div>
+                  </div>
+
+                  <!-- Rating -->
+                  <div class="rating d-flex">
+                    <span>4.5</span>
+                    <span><i class="bx bxs-star"></i></span>
+                  </div>
+                </div>
+
+                <p class="col">
+                  “This is very unusual for my business that currently requires
+                  a virtual private network that has high security.”.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="navigation d-flex">
+            <div class="custom-pagination"></div>
+            <div class="d-flex">
+              <div class="custom-button custom-button-next d-flex">
+                <i class="bx bx-left-arrow-alt"></i>
+              </div>
+              <div class="custom-button custom-button-prev d-flex">
+                <i class="bx bx-right-arrow-alt"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Subscribe -->
+    <section class="section subscribe">
+      <div class="row container d-flex">
+        <div class="col">
+          <h2>
+            Subscribe Now for <br />
+            Get Special Features!
+          </h2>
+          <p>Let's subscribe with us and find the fun.</p>
+        </div>
+        <div class="col">
+          <a href="#" class="btn">Subscribe Now</a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="row container">
+        <div class="col">
+          <div class="logo d-flex">
+            <img src="./images/logo.svg" alt="logo" />
+            <h4>Codevo</h4>
+          </div>
+          <p>
+            <span>wpcodevo</span> provides free HTML, CSS and Javascript
+            tutorials along with practical examples.
+          </p>
+          <div class="icons d-flex">
+            <div class="icon d-flex">
+              <i class="bx bxl-facebook"></i>
+            </div>
+            <div class="icon d-flex"><i class="bx bxl-twitter"></i></div>
+            <div class="icon d-flex"><i class="bx bxl-instagram"></i></div>
+            <div class="icon d-flex"><i class="bx bxl-youtube"></i></div>
+          </div>
+          <p>
+            Copyrights 2021 <br />
+            @Iamabdulqadeer01
+          </p>
+        </div>
+        <div class="col">
+          <div>
+            <h4>Product</h4>
+            <a href="">Download</a>
+            <a href="">Pricing</a>
+            <a href="">Locations</a>
+            <a href="">Server</a>
+            <a href="">Countries</a>
+            <a href="">Blog</a>
+          </div>
+          <div>
+            <h4>Engage</h4>
+            <a href="">LaslesVPN</a>
+            <a href="">FAQ</a>
+            <a href="">Tutorials</a>
+            <a href="">About Us</a>
+            <a href="">Privacy Policy</a>
+            <a href="">Terms of Service</a>
+          </div>
+          <div>
+            <h4>Earn Money</h4>
+            <a href="">Affiliate</a>
+            <a href="">Become Partner</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
     <!-- Swiper JS -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <!-- ion-icons -->
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
     <!-- Script -->
     <script src="js/main.js"></script>
   </body>

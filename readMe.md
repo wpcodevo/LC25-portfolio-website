@@ -1,4 +1,4 @@
-# Responsive Portfolio Website with HTML, CSS and JavaScript
+# Responsive Portfolio Website with HTML, CSS & JavaScript
 
 ![Responsive Portfolio Website with HTML, CSS and JavaScript](https://raw.githubusercontent.com/wpcodevo/LC25-portfolio-website/setup/responsive%20portfolio%20website%20with%20html%20css.jpg "Responsive Portfolio Website with HTML, CSS and JavaScript")
 

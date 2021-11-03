@@ -36,7 +36,7 @@ window.addEventListener(
   { passive: true }
 );
 
-/* Swiper */
+/* ========== Swiper =========== */
 const swiper = new Swiper(".mySwiper", {
   grabCursor: true,
   slidesPerView: 1,

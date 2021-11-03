@@ -1,5 +1,7 @@
+/* ========== Google Fonts =========== */
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap");
 
+/* ========== CSS Variables =========== */
 :root {
   --primary-color: #6975e3;
   --box-shadow: 0 5px 15px rgba(105, 117, 227, 0.7);
@@ -62,6 +64,7 @@ p {
   line-height: 3rem;
 }
 
+/* ========== Custom Classes =========== */
 .container {
   max-width: 135rem;
   padding: 0 3rem;
@@ -73,8 +76,7 @@ p {
   align-items: center;
 }
 
-/* Header */
-
+/* ========== Header =========== */
 .header {
   position: relative;
 }
@@ -135,7 +137,7 @@ p {
   display: none;
 }
 
-/* ====== Media Query ====== */
+/* ========== Media Query =========== */
 @media (max-width: 996px) {
   .header .nav .btn {
     display: none;
@@ -182,7 +184,7 @@ p {
   }
 }
 
-/* ====== Hero Area ====== */
+/* ========== Hero Area =========== */
 .hero {
   min-height: calc(100vh - 10.3rem);
   justify-content: center;
@@ -227,7 +229,8 @@ p {
   box-shadow: 0px 0px 0px 100000vh var(--white);
 }
 
-/* Media Query */
+/* ========== Media Query =========== */
+
 @media (max-width: 996px) {
   .hero .row {
     grid-template-columns: 1.3fr 1fr;
@@ -264,7 +267,7 @@ p {
   }
 }
 
-/* Icons */
+/* ========== Icons =========== */
 .header .icons {
   position: fixed;
   top: 50%;
@@ -302,8 +305,7 @@ p {
   }
 }
 
-/* User Data */
-
+/* ========== User Data =========== */
 .user-data .row {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -344,7 +346,7 @@ p {
   margin-bottom: 0.5rem;
 }
 
-/* Media Query */
+/* ========== Media Query =========== */
 @media (max-width: 567px) {
   .user-data .row {
     grid-template-columns: repeat(2, 1fr);
@@ -357,7 +359,7 @@ p {
   }
 }
 
-/* About */
+/* ========== About =========== */
 .section .title {
   font-size: 3.5rem;
   text-align: center;
@@ -411,7 +413,7 @@ p {
   }
 }
 
-/* About #2 */
+/* ========== About #2 =========== */
 .about-2 .row {
   padding: 6rem 3rem;
   border-top: 1px solid var(--grey);
@@ -439,7 +441,7 @@ p {
   }
 }
 
-/* Languages */
+/* ========== Languages =========== */
 .languages .title {
   margin-bottom: 10rem;
 }
@@ -673,7 +675,7 @@ p {
   }
 }
 
-/* Testimonials */
+/* ========== Testimonials =========== */
 .testimonials .top {
   text-align: center;
   margin-bottom: 5rem;
@@ -787,8 +789,7 @@ p {
   }
 }
 
-/* Subscribe */
-
+/* ========== Subscribe =========== */
 .subscribe .row {
   border: 1px solid var(--grey);
   border-radius: 1.5rem;
@@ -826,7 +827,7 @@ p {
   }
 }
 
-/* Footer */
+/* ========== Footer =========== */
 .footer {
   background-color: var(--light-blue);
   padding: 15rem 3rem 10rem;

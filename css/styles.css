@@ -57,7 +57,7 @@ li {
 
 section {
   padding: 5rem 0 5rem;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 p {

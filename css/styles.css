@@ -1,15 +1,22 @@
+/* ========== Google Fonts =========== */
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap");
 
+/* ========== CSS Variables =========== */
 :root {
   --primary-color: #6975e3;
-  --box-shadow: 0 5px 15px rgba(105, 117, 227, 0.25);
+  --box-shadow: 0 5px 15px rgba(105, 117, 227, 0.7);
+  --light-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   --footer-color: rgba(105, 117, 227, 0.25);
   --light-blue: rgba(105, 117, 227, 0.15);
   --black: #0b132a;
   --white: #fff;
-  --default: ##4f5665;
+  --default: #4f5665;
   --grey: #e0e0e0;
   --yellow: #fea250;
+  --orange: #fa620c;
+  --pink: #ffbcbc;
+  --blue: #389af5;
+  --brown: #a95e19;
 }
 
 *,
@@ -38,3 +45,59 @@ h3,
 h4 {
   color: var(--black);
 }
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style-type: none;
+}
+
+section {
+  padding: 5rem 0 5rem;
+  overflow-x: hidden;
+}
+
+p {
+  line-height: 3rem;
+}
+
+/* ========== Custom Classes =========== */
+.container {
+  max-width: 135rem;
+  padding: 0 3rem;
+  margin: 0 auto;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+}
+
+/* ========== Header =========== */
+
+/* ========== Media Query =========== */
+
+/* ========== Hero Area =========== */
+
+/* ========== Media Query =========== */
+
+/* ========== Icons =========== */
+
+/* ========== User Data =========== */
+
+/* ========== Media Query =========== */
+
+/* ========== About =========== */
+
+/* ========== About #2 =========== */
+
+/* ========== Languages =========== */
+
+/* ========== Testimonials =========== */
+
+/* ========== Subscribe =========== */
+
+/* ========== Footer =========== */

@@ -30,6 +30,7 @@
 html {
   font-size: 62.5%;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -919,4 +920,37 @@ p {
     grid-template-columns: 1fr 1fr;
     gap: 3rem 0;
   }
+}
+
+/* Scroll Top */
+.scroll-top {
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+  background-color: var(--primary-color);
+  padding: 0.8rem 1rem;
+  border-radius: 1rem;
+  box-shadow: var(--box-shadow);
+  animation: grow 1s linear infinite alternate;
+  cursor: pointer;
+  justify-content: center;
+  display: none;
+}
+
+.scroll-top i {
+  font-size: 2.5rem;
+  color: var(--white);
+}
+
+@keyframes grow {
+  0% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.scroll-top.show {
+  display: block;
 }

@@ -213,6 +213,10 @@ p {
   width: 80%;
 }
 
+.hero .row .col:first-child p span {
+  font-weight: 600;
+}
+
 .hero .row .col:first-child .btn {
   padding: 1.4rem 5rem;
 }
